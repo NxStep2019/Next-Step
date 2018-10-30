@@ -1,0 +1,35 @@
+
+# Intellij
+*.iml
+.idea
+target
+
+# Eclipse
+.project
+.settings
+.classpath
+.cache
+.metadata
+.springBeans
+
+test/**/FitNesseRoot/properties
+test/**/FitNesseRoot/ErrorLogs/*
+test/**/FitNesseRoot/files/*
+test/**/FitNesseRoot/FitNesse/*
+test/**/FitNesseRoot/Frontpage/*
+test/**/FitNesseRoot/PageFooter/*
+test/**/FitNesseRoot/PageHeader/*
+test/**/FitNesseRoot/RecentChanges/*
+test/**/FitNesseRoot/TemplateLibrary/*
+test/**/FitNesseRoot/updateDoNotCopyOverList/*
+test/**/FitNesseRoot/updateList/*
+test/**/FitNesseRoot/properties/*
+
+*.retry
+
+node_modules/
+node/
+*.log
+
+# crud
+ehcache.disk.store.dir
